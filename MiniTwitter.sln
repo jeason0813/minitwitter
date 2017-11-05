@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniTwitter", "MiniTwitter\MiniTwitter.csproj", "{003253FA-D00D-4F51-B984-8528C02D5083}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0ACFFD29-B490-4468-BC7D-CA7D2480B999} = {0ACFFD29-B490-4468-BC7D-CA7D2480B999}
+		{8CF3DAFB-99BA-416E-948E-BEB656F34CC4} = {8CF3DAFB-99BA-416E-948E-BEB656F34CC4}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniTwitter.Themes", "MiniTwitter.Themes\MiniTwitter.Themes.csproj", "{3368DA52-1B40-4EFF-A4D7-355610D973AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniTwitter.Themes.DefaultThemes", "MiniTwitter.Themes.DefaultThemes\MiniTwitter.Themes.DefaultThemes.csproj", "{8CF3DAFB-99BA-416E-948E-BEB656F34CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniTwitter.Themes.Netbook", "MiniTwitter.Themes.Netbook\MiniTwitter.Themes.Netbook.csproj", "{0ACFFD29-B490-4468-BC7D-CA7D2480B999}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{003253FA-D00D-4F51-B984-8528C02D5083}.Debug|x86.ActiveCfg = Debug|x86
+		{003253FA-D00D-4F51-B984-8528C02D5083}.Debug|x86.Build.0 = Debug|x86
+		{003253FA-D00D-4F51-B984-8528C02D5083}.Release|x86.ActiveCfg = Release|x86
+		{003253FA-D00D-4F51-B984-8528C02D5083}.Release|x86.Build.0 = Release|x86
+		{3368DA52-1B40-4EFF-A4D7-355610D973AD}.Debug|x86.ActiveCfg = Debug|x86
+		{3368DA52-1B40-4EFF-A4D7-355610D973AD}.Debug|x86.Build.0 = Debug|x86
+		{3368DA52-1B40-4EFF-A4D7-355610D973AD}.Release|x86.ActiveCfg = Release|x86
+		{3368DA52-1B40-4EFF-A4D7-355610D973AD}.Release|x86.Build.0 = Release|x86
+		{8CF3DAFB-99BA-416E-948E-BEB656F34CC4}.Debug|x86.ActiveCfg = Debug|x86
+		{8CF3DAFB-99BA-416E-948E-BEB656F34CC4}.Debug|x86.Build.0 = Debug|x86
+		{8CF3DAFB-99BA-416E-948E-BEB656F34CC4}.Release|x86.ActiveCfg = Release|x86
+		{8CF3DAFB-99BA-416E-948E-BEB656F34CC4}.Release|x86.Build.0 = Release|x86
+		{0ACFFD29-B490-4468-BC7D-CA7D2480B999}.Debug|x86.ActiveCfg = Debug|x86
+		{0ACFFD29-B490-4468-BC7D-CA7D2480B999}.Debug|x86.Build.0 = Debug|x86
+		{0ACFFD29-B490-4468-BC7D-CA7D2480B999}.Release|x86.ActiveCfg = Release|x86
+		{0ACFFD29-B490-4468-BC7D-CA7D2480B999}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
